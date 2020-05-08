@@ -67,6 +67,7 @@ def toDot(graph: ScalaGraph): String = {
   }
   buf.append { "}" }
   buf.toString
+  
 }
 
 @main def main(): String = {
